@@ -182,9 +182,10 @@ h3 {
 }
 
 .categories .covers>div {
-    height: 500px;
+    height: 400px;
     width: 300px;
     position: relative;
+    /* max-height: 400px; */
 }
 
 .categories .cover-grad {
