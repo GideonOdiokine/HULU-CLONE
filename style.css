@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    font-family: sans-serif;
+    background: #000;
+    color: #fff;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #ccc;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+}
+h4{
+    color: #00ed82;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.btn{
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    min-width: 135px;
+    padding: 20px 32px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 14px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-cta:hover{
+    opacity: 0.8;
+}
+.legal-text{
+    font-size: 10px;
+    color: #ccc;
+    margin-top: 20px;
+}
+/* Header */
+.header{
+    height: 530px;
+    background: url(./img/header.jpg) no-repeat center center / cover;
+}
+.header nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+}
+.header nav .login-btn{
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.header .logo{
+    width: 270px;
+    margin: 20px 0;
+
+}
+.header .header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.header .header-text-1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.header .header-text-2{
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+/* Sub Header */
+.sub-header{
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+  place-items: center center;
+ padding: 30px 40px;
+}
+
+/* Media Queries */
+@media (max-width:768px){
+    .header .logo{
+        width: 200px;
+    }
+    .header .header-content{
+        text-align: center;
+        padding: 0 20px;
+    }
+}
