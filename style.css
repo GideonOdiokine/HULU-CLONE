@@ -167,6 +167,11 @@ h3{
         rgba(0, 0, 0, 0) 69.61%
       ),
       linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
+    height: 100%;
+    width: 100%;
+    }
+.cover-1{
+    background: url('img/cover-1.jpg');
 }
 /* Media Queries */
 @media (max-width:768px){
