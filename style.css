@@ -144,12 +144,16 @@ h3{
 .categories {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 90px 40px;
 }
 .categories .covers{
-
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 20px;
+ margin-top: 40px;
 }
 /* Media Queries */
 @media (max-width:768px){
