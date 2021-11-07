@@ -169,7 +169,17 @@ h3{
       linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
     height: 100%;
     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
     }
+    .categories .cover-text {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        text-align: left;
+      }
 .cover-1{
     background: url('img/cover-1.jpg');
 }
