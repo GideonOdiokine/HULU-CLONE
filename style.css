@@ -71,6 +71,15 @@ h3{
     margin-top: 5px;
     text-decoration: underline;
 }
+.text-xl{
+    font-size: 70px;
+    font-weight: bold;
+}
+.sub-text{
+    max-width: 850px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
 /* Header */
 .header{
     height: 530px;
@@ -129,6 +138,18 @@ h3{
 }
 .sub-header > div:last-of-type .sub-link{
     text-align: center;
+}
+
+/* Categories */
+.categories {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+.categories .covers{
+
 }
 /* Media Queries */
 @media (max-width:768px){
