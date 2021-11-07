@@ -173,6 +173,13 @@ h3{
 .cover-1{
     background: url('img/cover-1.jpg');
 }
+.cover-2{
+    background: url('img/cover-2.jpg');
+}
+/* .cover-3{
+    background: url('img/cover-1.jpg');
+} */
+
 /* Media Queries */
 @media (max-width:768px){
     .header .logo{
