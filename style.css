@@ -181,14 +181,14 @@ h3 {
     margin-top: 40px;
 }
 
-.categories .covers > div {
+.categories .covers>div {
     height: 500px;
     width: 300px;
     position: relative;
 }
 
 .categories .cover-grad {
-    background: linear-gradient( 156.82deg,
+    background: linear-gradient(156.82deg,
             rgba(0, 0, 0, 0.6) 4.58%,
             rgba(0, 0, 0, 0) 69.61%),
         linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
@@ -209,7 +209,6 @@ h3 {
 
 .cover-1 {
     background: url('img/cover-1.jpg') no-repeat;
-    
 }
 
 .cover-2 {
