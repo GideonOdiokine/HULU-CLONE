@@ -492,6 +492,12 @@ h3 {
         left: 30px;
         margin-top: 60px;
     }
-
+    .footer-lists {
+        flex-direction: column;
+      }
+    
+      .modal .modal-box {
+        width: 350px;
+      }
 
 }
