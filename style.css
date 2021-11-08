@@ -267,7 +267,7 @@ h3 {
 
 /* Live Sports */
 .live-sports {
-    background: url('../img/live-sports.jpg') no-repeat center center / cover;
+    background: url(img/live-sports.jpg) no-repeat center center / cover;
     height: 800px;
     position: relative;
 }
@@ -288,7 +288,7 @@ h3 {
 }
 
 .live-sports-logos>div {
-    background: url('../img/network-logo-bg.png') no-repeat center center / cover;
+    background: url(img/network-logo-bg.png) no-repeat center center / cover;
     height: 60px;
     width: 60px;
     display: flex;
@@ -484,7 +484,7 @@ h3 {
     }
 
     .live-sports {
-        background: url('../img/live-sports-small.jpg') no-repeat center center / cover;
+        background: url(img/live-sports-small.jpg) no-repeat center center / cover;
     }
 
     .live-sports-content {
