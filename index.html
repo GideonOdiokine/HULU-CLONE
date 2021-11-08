@@ -12,7 +12,7 @@
       <nav>
         <ul>
           <li>
-            <button class="login-btn">Log In</button>
+            <button class="login-btn" id="login-btn">Log In</button>
           </li>
         </ul>
       </nav>
@@ -175,7 +175,7 @@
         </div>
       </footer>
   
-      <div class="modal">
+      <div class="modal" id="modal">
         <div class="modal-box">
           <div class="modal-body">
             <h3>Log In</h3>
@@ -195,8 +195,17 @@
           <div class="modal-footer">
             <p>Don't have an account? <a href="#">Start your free trial</a></p>
           </div>
-          <img class="close" src="img/close.svg" alt="close" />
+          <img id="close" class="close" src="img/close.svg" alt="close" />
         </div>
       </div>
+
+      <script>
+    document.getElementById("login-btn").addEventListener("click", ()=> {
+        document.getElementById("modal").style.display="block"
+    })
+    document.getElementById("close").addEventListener("click", ()=> {
+        document.getElementById("modal").style.display="none"
+    })
+    </script>
   </body>
 </html>
